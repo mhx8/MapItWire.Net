@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>MapItWire.Net</AssemblyName>
+        <RootNamespace>MapItWire.Net</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.ServiceModel.Primitives" Version="8.0.0" />
+      <PackageReference Include="WireMock.Net" Version="1.6.3" />
+      <PackageReference Include="xunit.extensibility.core" Version="2.9.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <InternalsVisibleTo Include="MapItWire.Net.Tests" />
+    </ItemGroup>
+
+</Project>

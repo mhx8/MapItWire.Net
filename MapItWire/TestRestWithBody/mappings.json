@@ -1,0 +1,16 @@
+[
+  {
+    "Guid": "b2209535-952d-40a6-a31d-23aef7f0416a",
+    "Priority": 1,
+    "Request": {
+      "Methods": [
+        "GET"
+      ],
+      "Path": "/api/v1/weathers/2"
+    },
+    "Response": {
+      "Status": 200,
+      "Body": "{\"id\":2,\"city\":\"London\",\"country\":\"United Kingdom\",\"latitude\":51.5074,\"longitude\":-0.1278,\"temperature\":18,\"weather_description\":\"Partly cloudy\",\"humidity\":60,\"wind_speed\":8,\"forecast\":[{\"date\":\"2023-07-28\",\"temperature\":17,\"weather_description\":\"Cloudy\",\"humidity\":62,\"wind_speed\":10},{\"date\":\"2023-07-29\",\"temperature\":19,\"weather_description\":\"Partly cloudy\",\"humidity\":58,\"wind_speed\":7}]}"
+    }
+  }
+]

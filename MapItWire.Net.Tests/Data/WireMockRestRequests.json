@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/unit/test"
+  },
+  "response": {
+    "status": 200,
+    "body": "HelloWorld"
+  }
+}

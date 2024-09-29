@@ -1,0 +1,20 @@
+### 
+GET http://localhost:5280/rest
+MapItWireIdentifier: TestRest
+
+###
+POST http://localhost:5280/rest-with-body
+Content-Type: application/json
+MapItWireIdentifier: TestRestWithBody
+
+{
+  "Id": "2"
+}
+
+###
+GET http://localhost:5280/soap
+MapItWireIdentifier: TestSoap
+
+###
+GET http://localhost:5280/complex
+MapItWireIdentifier: Complex

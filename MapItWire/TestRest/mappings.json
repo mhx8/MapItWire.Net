@@ -1,0 +1,16 @@
+[
+  {
+    "Guid": "c275d5b9-6b04-47b9-9f28-9035771d1d18",
+    "Priority": 1,
+    "Request": {
+      "Methods": [
+        "GET"
+      ],
+      "Path": "/api/v1/weathers/1"
+    },
+    "Response": {
+      "Status": 200,
+      "Body": "{\"id\":1,\"city\":\"New York\",\"country\":\"United States\",\"latitude\":40.7128,\"longitude\":-74.006,\"temperature\":25,\"weather_description\":\"Clear sky\",\"humidity\":50,\"wind_speed\":10,\"forecast\":[{\"date\":\"2023-07-28\",\"temperature\":24,\"weather_description\":\"Partly cloudy\",\"humidity\":55,\"wind_speed\":12},{\"date\":\"2023-07-29\",\"temperature\":26,\"weather_description\":\"Sunny\",\"humidity\":48,\"wind_speed\":9}]}"
+    }
+  }
+]
